@@ -13,8 +13,7 @@ WHILE count < element_number AND current != null:
     current = current.next 
     count = count + 1 
     return current
-
-    */
+*/
 
 // Definición del nodo de la lista enlazada
 class LinkedListNode {
@@ -45,7 +44,7 @@ head.next.next.next = new LinkedListNode(10);
 head.next.next.next.next = new LinkedListNode(6);
 
 
-const resultNode = linkedListLookUp(head, 4);
+const resultNode = linkedListLookUp(head, 3);
 console.log(`Value: ${resultNode.value}, Next: ${resultNode.next ? resultNode.next.value : null}`); 
 
         
